@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "plugin:react/recommended"],
+  "rules": {
+    "max-len": [1, 120, 2, { "ignoreComments": true }],
+    "comma-dangle": ["error", "never"]
+  },
+  "plugins": ["react", "jsx-a11y", "import"],
+  "globals": {
+    "document": true
+  }
+}
