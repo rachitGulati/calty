@@ -33,10 +33,7 @@
     "build": "NODE_ENV=production webpack --config webpack.config.js"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx}": [
-      "prettier --single-quote --no-semi --write",
-      "git add"
-    ]
+    "src/**/*.{js,jsx}": ["prettier --single-quote --no-semi --write", "git add"]
   },
   "author": "",
   "license": "ISC"
